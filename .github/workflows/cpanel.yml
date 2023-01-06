@@ -17,11 +17,18 @@ jobs:
         with:
           node-version: "14"
 
-      - name: 🔨 Build Project
-        run: |
-          npm install
-          npm cache clear --force
-          npm run build
+
+      - name: clean cache 🔨
+        run: npm cache clean --force
+      - name: install
+        run: npm ci
+      - name: npm install 🔨
+        run: npm install
+      - name: build 🔨
+        env:
+          CI: false
+        run: npm run build
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
