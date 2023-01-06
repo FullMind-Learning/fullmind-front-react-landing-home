@@ -20,6 +20,7 @@ jobs:
       - name: 🔨 Build Project
         run: |
           npm install
+          npm cache clear --force
           npm run build
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
