@@ -6,7 +6,8 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    environment: test
+    name: 🎉 Deploy To test Environment
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
