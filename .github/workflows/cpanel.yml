@@ -2,7 +2,7 @@
 name: 🚀 frp-landing-home
 on:
   push:
-    branches: main
+    branches: master
 
 jobs:
   web-deploy:
