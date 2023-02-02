@@ -6,7 +6,14 @@ import about4 from "../../shared/images/about4.png"
 import icon4 from "../../shared/images/icon4.png"
 import icon5 from "../../shared/images/icon5.png"
 import icon6 from "../../shared/images/icon6.png"
-import icon7 from "../../shared/images/icon6.png"
+import icon7 from "../../shared/images/icon7.png"
+import icon8 from "../../shared/images/icon8.png"
+import icon9 from "../../shared/images/icon9.png"
+import icon10 from "../../shared/images/icon10.png"
+import icon11 from "../../shared/images/icon11.png"
+import icon12 from "../../shared/images/icon12.png"
+import icon13 from "../../shared/images/icon13.png"
+
 
 import circle from "../../shared/images/circle.png"
 
@@ -53,7 +60,13 @@ import partner_hover7 from "../../shared/images/partner-img/partner-hover7.png"
 export const ICON4=icon4;
 export const ICON5=icon5;
 export const ICON6=icon6;
-export const ICON7=icon7
+export const ICON7=icon7;
+export const ICON8=icon8;
+export const ICON9=icon9;
+export const ICON10=icon10;
+export const ICON11=icon11;
+export const ICON12=icon12;
+export const ICON13=icon13;
 
 export const PARTNER1=partner1;
 export const PARTNER_H1=partner_hover1;

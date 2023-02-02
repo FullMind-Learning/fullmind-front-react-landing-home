@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
+import {ICON10, ICON11, ICON12, ICON13, ICON8, ICON9} from "../../../shared/Icon/Icon";
 
 //USE
 const OurFeatures = () => {
@@ -10,14 +11,14 @@ const OurFeatures = () => {
                 <div className="section-title">
                     <h2>Los beneficios</h2>
                     <div className="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Capacita a tu equipo, educa a tu audiencia y genera impacto en tu organización.</p>
                 </div>
 
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
                         <div className="single-features">
-                            <div className="icon">
-                                <Icon.Settings />
+                            <div className="icon" >
+                                <img style={{width:40}} src={ICON8} alt="image" />
                             </div>
                             <h3>
                                 <Link href="/src/pages/feature-details">
@@ -30,37 +31,8 @@ const OurFeatures = () => {
 
                     <div className="col-lg-6 col-md-6">
                         <div className="single-features">
-                            <div className="icon">
-                                <Icon.Mail />
-                            </div> 
-                            <h3>
-                                <Link href="/src/pages/feature-details">
-                                    <a>Personalización</a>
-                                </Link>
-                            </h3>
-                            <p>Para las necesidades específicas de tu empresa <br/><br/></p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-6 col-md-6">
-                        <div className="single-features">
-                            <div className="icon bg-c679e3">
-                                <Icon.Grid />
-                            </div>
-                            <h3>
-                                <Link href="/src/pages/feature-details">
-                                    <a>Eficiencia</a>
-                                </Link>
-                            </h3>
-                            <p>Un LMS permite a las empress gestionar y realizar seguimiento del
-                                progreso del aprendizaje de los estudiantes de manera eficiente, lo que permite
-                                ahorrar tiempo y recursos.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                        <div className="single-features">
                             <div className="icon bg-eb6b3d">
-                                <Icon.Bell />
+                                <img style={{width:40}} src={ICON11} alt="image" />
                             </div>
                             <h3>
                                 <Link href="/src/pages/feature-details">
@@ -73,10 +45,25 @@ const OurFeatures = () => {
                         </div>
                     </div>
 
+
+                    <div className="col-lg-6 col-md-6">
+                        <div className="single-features">
+                            <div className="icon">
+                                <img style={{width:40}} src={ICON9} alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/src/pages/feature-details">
+                                    <a>Personalización</a>
+                                </Link>
+                            </h3>
+                            <p>Para las necesidades específicas de tu empresa <br/><br/><br/></p>
+                        </div>
+                    </div>
+
                     <div className="col-lg-6 col-md-6">
                         <div className="single-features">
                             <div className="icon bg-c679e3">
-                                <Icon.Info />
+                                <img style={{width:40}} src={ICON12} alt="image" />
                             </div>
                             <h3>
                                 <Link href="/src/pages/feature-details">
@@ -85,14 +72,29 @@ const OurFeatures = () => {
                             </h3>
                             <p>La formación en línea a través de un MS puede ser más asequible
                                 que la formación presencial, ya que no se requieren costos de desplazamiento o
-                                alojamiento.<br/><br/> </p>
+                                alojamiento</p>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 col-md-6">
+                        <div className="single-features">
+                            <div className="icon bg-c679e3">
+                                <img style={{width:30}} src={ICON10} alt="image" />
+                            </div>
+                            <h3>
+                                <Link href="/src/pages/feature-details">
+                                    <a>Eficiencia</a>
+
+                                </Link>
+                            </h3>
+                            <p>Un LMS permite a las empress gestionar y realizar seguimiento del progreso del aprendizaje de los estudiantes de manera eficiente, lo que permite ahorrar tiempo y recursos. </p>
                         </div>
                     </div>
 
                     <div className="col-lg-6 col-md-6">
                         <div className="single-features">
                             <div className="icon bg-eb6b3d">
-                                <Icon.Box />
+                                <img style={{width:40}} src={ICON13} alt="image" />
                             </div>
                             <h3>
                                 <Link href="/src/pages/feature-details">
@@ -102,7 +104,9 @@ const OurFeatures = () => {
                             <p>Una plataforma que ofrezca creadores de contenido e-learning
                                 específicos para cada empresa puede proporcionar contenido de aprendizaje de alta
                                 calidad y relevante para la empresa, lo que puede mejorar el rendimiento y la retención
-                                de los estudiantes</p>
+                                de los estudiantes
+
+                            </p>
                         </div>
                     </div>
 

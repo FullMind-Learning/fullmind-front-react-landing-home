@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {ABOUT4, SHAPE1, SHAPE2, SHAPE3, SHAPE4} from "../../../shared/Icon/Icon";
+import {URL_WHATS} from "../../../utils/utils";
 
 //USE
 
@@ -23,7 +24,7 @@ const AboutUsContent = () => {
                             <p>Convierte a tus talentos en profesores E-learning o solicita a uno de nuestros profesionales , aprovecha tus oficinas o grabemos en un increíble estudio, sorprende a tus equipos con 3D, 2D o realidad virtual!</p>
                             <p>Diseña la experiencia de aprendizaje de tu equipo a medida con Fullmind.</p>
 
-                            <Link href="/src/pages/about-1">
+                            <Link href={URL_WHATS}>
                                 <a className="btn btn-secondary">Contacta a un experto</a>
                             </Link>
                         </div>

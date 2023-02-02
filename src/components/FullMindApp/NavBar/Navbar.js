@@ -53,7 +53,7 @@ const Navbar = () => {
 
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto">
-                                <li className="nav-item">
+{/*                                <li className="nav-item">
                                     <Link href="/src/pages#" activeClassName="active">
                                         <a onClick={e => e.preventDefault()} className="nav-link">
                                             Home <Icon.ChevronDown />
@@ -399,24 +399,26 @@ const Navbar = () => {
                                     <Link href="/src/pages/contact" activeClassName="active">
                                         <a onClick={toggleNavbar} className="nav-link">Contact</a>
                                     </Link>
-                                </li>
+                                </li>*/}
                             </ul>
                         </div>
 
                         <div className="others-option">
+{/*
                             <Link href="/src/pages/cart">
                                 <a className="cart-wrapper-btn">
                                     <Icon.ShoppingCart /> 
                                     <span>{cart.length}</span>
                                 </a>
                             </Link>
+*/}
 
                             <Link href="/src/pages/contact">
-							    <a className="btn btn-light">Support</a>
+							    <a className="btn btn-light">Soporte</a>
                             </Link>
 
                             <Link href="/src/pages/login">
-							    <a className="btn btn-primary">Login</a>
+							    <a className="btn btn-primary">Inicio</a>
                             </Link>
 						</div>
                     </nav>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import {CIRCLE, CTA_SHAPE, CTA_SHAPE2} from "../../../shared/Icon/Icon";
+import {URL_WHATS} from "../../../utils/utils";
 //USE
 const Cta = () => {
     return (
@@ -22,7 +23,7 @@ const Cta = () => {
                             <h3>Fullmind para creadores</h3>
                             <p>Puedes producir y diseñar increíbles experiencias para e-learning? Tienes un equipo de producción audiovisual?  te apasiona enseñar? Quieres ser parte del futuro del trabajo? Te necesitamos! </p>
 
-                            <Link href="/src/pages/contact">
+                            <Link href={URL_WHATS}>
                                 <a className="btn btn-primary">Quiero ser parte del equipo Fullmind</a>
                             </Link>
                         </div>
