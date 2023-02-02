@@ -12,7 +12,7 @@ const AboutUsContent = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-about-img">
-                            <img src={ABOUT4} alt="image" />
+                            <img style={{width:600}} src={ABOUT4} alt="image" />
                         </div>
                     </div>
 
