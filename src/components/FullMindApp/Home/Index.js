@@ -30,17 +30,6 @@ const Index = () => {
 
                     <Cta/>
 
-                    <FunFactsArea />
-
-
-                    <PricingStyleFour />
-
-                    <FeedbackStyleFour />
-
-                    <BlogCard />
-
-                    <Newsletter />
-
                     <Footer />
             </>
         )

@@ -3,10 +3,41 @@ name: 🚀 frp-landing-home
 on:
   push:
     branches: test
+  pull_request:
+    branches: master
 
 jobs:
   web-deploy:
     environment: test
+    name: 🎉 Deploy To test Environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js 14
+        uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - name: clean cache 🔨
+        run: npm cache clean --force
+      - name: npm install 🔨
+        run: npm install
+      - name: build 🔨
+        env:
+          CI: false
+        run: npm run build
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          dangerous-clean-slate: true
+          local-dir: ./build/
+  web-deploy-production:
+    environment: production
     name: 🎉 Deploy To test Environment
     runs-on: ubuntu-latest
     steps:

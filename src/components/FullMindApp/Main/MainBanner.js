@@ -26,17 +26,21 @@ const MainBanner = () => {
     return (
         <div className="ml-main-section">
             <div className="container">
+                <div>
+                    <h1 style={{
+                        color:"#44CE6F",
+                        fontSize:"20px"
+                    }}> E-learning corporativo on demand.</h1>
+                </div>
+
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-content">
                             <h1> Capacita a tu equipo, educa a tu audiencia y genera impacto en tu organización.</h1>
-                            <p>Ofrecemos soluciones a organizaciones que requieren acceso a herramientas y profesionales
-                                expertos en producción e-Learning a menores costos y mayor efectividad, facilitando
-                                solicitudes de requerimiento, almacenamiento y toda la suite de soluciones necesarias
-                                para educar y mejorar los equipos de trabajo.</p>
+                            <p style={{fontSize:20}} className="col-md-12">Fullmind es una plataforma que facilita acceso a herramientas y profesionales expertos en producción e-Learning.</p>
 
                             <Link href="/src/pages/contact">
-                                <a className="btn btn-secondary">Get Started</a>
+                                <a className="btn btn-secondary">Mi empresa necesita E-learning</a>
                             </Link>
                         </div>
                     </div>

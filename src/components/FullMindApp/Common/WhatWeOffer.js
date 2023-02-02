@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
         <div className="solutions-area ptb-80">
             <div className="container">
                 <div className="section-title">
-                    <span className="sub-title">What We Offer</span>
+                    <span className="sub-title">FullMind</span>
                     <h2>Nuestra solución</h2>
                     <div className="bar"></div>
                     <p>Plataforma e-learning customizada para tu empresa, sube videos, crea evaluaciones, recibe reportes.</p>
@@ -30,7 +30,7 @@ const WhatWeOffer = () => {
 
                             <Link href="/src/pages/service-details">
                                 <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Learn More
+                                    <Icon.PlusCircle /> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -50,7 +50,7 @@ const WhatWeOffer = () => {
                             
                             <Link href={ICON5}>
                                 <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Learn More
+                                    <Icon.PlusCircle /> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -67,10 +67,11 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Creación de contenido para las necesidades específicas de tu empresa</p>
-                            
+                            <br/>
+
                             <Link href="/src/pages/service-details">
                                 <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Learn More
+                                    <Icon.PlusCircle /> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -87,10 +88,9 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Vende tus cursos E-learning, Genera monetizacíon de tu contenido AudioVisual</p>
-                            
                             <Link href="/src/pages/service-details">
                                 <a className="learn-more-btn">
-                                    <i data-feather="plus-circle"></i> Learn More
+                                    <Icon.PlusCircle /> Aprende más
                                 </a>
                             </Link>
                         </div>
