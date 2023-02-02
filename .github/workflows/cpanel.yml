@@ -2,10 +2,9 @@
 name: 🚀 frp-landing-home
 on:
   push:
-    branches: test
-  pull_request:
-    branches: master
-
+    branches:
+    - test
+    - master
 jobs:
   web-deploy:
     environment: test
@@ -38,7 +37,7 @@ jobs:
           local-dir: ./build/
   web-deploy-production:
     environment: production
-    name: 🎉 Deploy To test Environment
+    name: 🎉 Deploy To Production Environment
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
