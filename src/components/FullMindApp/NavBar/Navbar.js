@@ -3,6 +3,9 @@ import Link from '../../../utils/ActiveLink'
 import * as Icon from 'react-feather'
 import { useSelector } from 'react-redux'
 import {LOGO} from "../../../shared/Icon/Icon";
+import {
+    URL_WHATS
+} from "../../../utils/utils";
 //USE
 const Navbar = () => {
     const cart = useSelector((state) => state.cart)
@@ -413,12 +416,12 @@ const Navbar = () => {
                             </Link>
 */}
 
-                            <Link href="/src/pages/contact">
+                            <Link href={URL_WHATS}>
 							    <a className="btn btn-light">Soporte</a>
                             </Link>
 
-                            <Link href="/src/pages/login">
-							    <a className="btn btn-primary">Inicio</a>
+                            <Link href="http://lms.fullmind.cl/">
+							    <a className="btn btn-primary">Iniciar sesión</a>
                             </Link>
 						</div>
                     </nav>
