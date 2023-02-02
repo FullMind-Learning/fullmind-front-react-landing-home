@@ -33,7 +33,7 @@ const Navbar = () => {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <Link href="/src/pages/it-startup">
                             <a onClick={toggleNavbar} className="navbar-brand">
-                                <img src={LOGO} alt="logo" />
+                                <img  src={LOGO} alt="logo" />
                             </a>
                         </Link>
 
