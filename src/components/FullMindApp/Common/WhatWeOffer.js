@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import * as Icon from 'react-feather';
 import {ICON4, ICON5, ICON6, ICON7, SHAPE1, SHAPE2, SHAPE3, SHAPE4} from "../../../shared/Icon/Icon";
+import {URL_WHATS} from "../../../utils/utils";
 
 //USE
 const WhatWeOffer = () => {
@@ -28,9 +29,9 @@ const WhatWeOffer = () => {
                             </h3>
                             <p>Plataforma e-learning customizada para tu empresa, sube videos, crea evaluaciones, recibe reportes.</p>
 
-                            <Link href="/src/pages/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Aprende más
+                            <Link href={URL_WHATS}>
+                                <a className="learn-more-btn" >
+                                    <Icon.PlusCircle/> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -42,15 +43,15 @@ const WhatWeOffer = () => {
                                 <img src={ICON5} alt="image" />
                             </div>
                             <h3>
-                                <Link href="/src/pages/service-details">
+                                <Link href="/src/pages/service-details" >
                                     <a>Profesionales</a>
                                 </Link>
                             </h3>
                             <p>Acceso a los mejores PRODUCTORES Y CREADORES De Contenido E-learning local.</p>
-                            
-                            <Link href={ICON5}>
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Aprende más
+
+                            <Link href={URL_WHATS}>
+                                <a className="learn-more-btn" >
+                                    <Icon.PlusCircle/> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -69,9 +70,9 @@ const WhatWeOffer = () => {
                             <p>Creación de contenido para las necesidades específicas de tu empresa</p>
                             <br/>
 
-                            <Link href="/src/pages/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Aprende más
+                            <Link href={URL_WHATS}>
+                                <a className="learn-more-btn" >
+                                    <Icon.PlusCircle/> Aprende más
                                 </a>
                             </Link>
                         </div>
@@ -88,9 +89,9 @@ const WhatWeOffer = () => {
                                 </Link>
                             </h3>
                             <p>Vende tus cursos E-learning, Genera monetizacíon de tu contenido AudioVisual</p>
-                            <Link href="/src/pages/service-details">
-                                <a className="learn-more-btn">
-                                    <Icon.PlusCircle /> Aprende más
+                            <Link href={URL_WHATS}>
+                                <a className="learn-more-btn" >
+                                    <Icon.PlusCircle/> Aprende más
                                 </a>
                             </Link>
                         </div>

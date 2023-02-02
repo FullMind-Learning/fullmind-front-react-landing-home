@@ -3,8 +3,9 @@ name: 🚀 frp-landing-home
 on:
   push:
     branches:
-    - test
     - master
+  pull_request:
+    branches: test
 jobs:
   web-deploy:
     environment: test

@@ -17,6 +17,10 @@ import {
     TWO
 } from "../../../shared/Icon/Icon";
 
+import {
+    URL_WHATS
+} from "../../../utils/utils";
+
 
 
 
@@ -39,7 +43,7 @@ const MainBanner = () => {
                             <h1> Capacita a tu equipo, educa a tu audiencia y genera impacto en tu organización.</h1>
                             <p style={{fontSize:20}} className="col-md-12">Fullmind es una plataforma que facilita acceso a herramientas y profesionales expertos en producción e-Learning.</p>
 
-                            <Link href="/src/pages/contact">
+                            <Link href={URL_WHATS}>
                                 <a className="btn btn-secondary">Mi empresa necesita E-learning</a>
                             </Link>
                         </div>
