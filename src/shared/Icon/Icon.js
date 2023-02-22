@@ -14,6 +14,23 @@ import icon11 from "../../shared/images/icon11.png"
 import icon12 from "../../shared/images/icon12.png"
 import icon13 from "../../shared/images/icon13.png"
 
+import resource1 from "../../shared/images/full-hero/img.png"
+import resource24 from "../../shared/images/full-hero/Recurso 24.png"
+import resource25 from "../../shared/images/full-hero/Recurso 25.png"
+import resource26 from "../../shared/images/full-hero/Recurso 26.png"
+import resource27 from "../../shared/images/full-hero/Recurso 27.png"
+import resource28 from "../../shared/images/full-hero/Recurso 28.png"
+import resource29 from "../../shared/images/full-hero/Recurso 29.png"
+import resource30 from "../../shared/images/full-hero/Recurso 30.png"
+import resource31 from "../../shared/images/full-hero/Recurso 31.png"
+import resource32 from "../../shared/images/full-hero/Recurso 32.png"
+import resource33 from "../../shared/images/full-hero/Recurso 33.png"
+import resource34 from "../../shared/images/full-hero/Recurso 34.png"
+import resource35 from "../../shared/images/full-hero/Recurso 35.png"
+import resource36 from "../../shared/images/full-hero/Recurso 36.png"
+
+
+
 
 import circle from "../../shared/images/circle.png"
 
@@ -67,6 +84,23 @@ export const ICON10=icon10;
 export const ICON11=icon11;
 export const ICON12=icon12;
 export const ICON13=icon13;
+
+
+export const R24=resource24;
+export const R25=resource25;
+export const R26=resource26;
+export const R27=resource27;
+export const R28=resource28;
+export const R29=resource29;
+export const R30=resource30;
+export const R31=resource31;
+export const R32=resource32;
+export const R33=resource33;
+export const R34=resource34;
+export const R35=resource35;
+export const R36=resource36;
+export const R1=resource1;
+
 
 export const PARTNER1=partner1;
 export const PARTNER_H1=partner_hover1;
