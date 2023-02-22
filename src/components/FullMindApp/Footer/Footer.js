@@ -110,22 +110,22 @@ const Footer = () => {
                             </ul>
                             <ul className="social-links">
                                 <li> 
-                                    <a href="src/components/FullMindApp/Footer/Footer" className="facebook" target="_blank">
+                                    <a href="#" className="facebook" target="_blank">
                                         <Icon.Facebook />
                                     </a> 
                                 </li>
                                 <li>
-                                    <a href="src/components/FullMindApp/Footer/Footer" className="twitter" target="_blank">
+                                    <a href="#" className="twitter" target="_blank">
                                         <Icon.Twitter />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="src/components/FullMindApp/Footer/Footer" className="instagram" target="_blank">
+                                    <a href="#" className="instagram" target="_blank">
                                         <Icon.Instagram />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="src/components/FullMindApp/Footer/Footer" className="linkedin" target="_blank">
+                                    <a href="#" className="linkedin" target="_blank">
                                         <Icon.Linkedin />
                                     </a>
                                 </li>
