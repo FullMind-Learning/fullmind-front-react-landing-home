@@ -141,7 +141,7 @@ const Footer = () => {
                         <br/>
                         <br/>
                         <div className="copyright-area">
-                            <p>Copyright &copy; {currentYear} FullMind - Todos los derechos reservados | Desarrollado por <a href="https://spherical.cl/" target="_blank">Spherical <FontAwesomeIcon icon="fa-solid fa-heart" /></a></p>
+                            <p>Copyright &copy; {currentYear} FullMind - Todos los derechos reservados | Desarrollado por <a href="https://spherical.cl/" target="_blank">Spherical</a></p>
                         </div>
                         <br/>
                         <br/>
