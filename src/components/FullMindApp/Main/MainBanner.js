@@ -1,20 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import {
-    EiGHT,
-    ELEVEN,
-    FIVE,
-    FOUR,
-    MAIN,
-    NINE,
-    ONE,
-    SEVEN,
+    R24, R25, R26, R27,
     SHAPE1,
     SHAPE2, SHAPE3, SHAPE4,
-    SIX,
-    TEN,
-    THREE,
-    TWO
 } from "../../../shared/Icon/Icon";
 
 import {
@@ -51,77 +40,53 @@ const MainBanner = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-image">
-                            <img
-                                src={ONE}
-                                className="animate__animated animate__fadeIn animate__delay-2s"
-                                alt="image"
-                            />
+
 
                             <img
-                                src={TWO}
-                                className="animate__animated animate__fadeInUp animate__delay-1s"
+                                src={R24}
+                                style={{
+                                    marginLeft:"-96px",
+                                    width:"38%",
+                                }}
+                                className="animate__animated animate__fadeIn animate__delay-1.4s"
                                 alt="image"
                             />
-
                             <img
-                                src={THREE}
-                                className="animate__animated animate__fadeInUp animate__delay-0.5s"
+                                src={R25}
+                                style={{
+                                    marginLeft:"121px",
+                                    marginTop:"-30px",
+                                    width:"38%",
+
+                                }}
+                                className="animate__animated animate__fadeInUp animate__delay-1.4s"
                                 alt="image"
                             />
-
                             <img
-                                src={FOUR}
-                                className="animate__animated animate__fadeInUp animate__delay-2s"
+                                src={R26}
+                                style={{
+                                    marginLeft:"-66px",
+                                    marginTop:"-34px",
+                                    width:"38%",
+
+                                }}
+                                className="animate__animated animate__fadeInUp animate__delay-1.4s"
                                 alt="image"
                             />
-
                             <img
-                                src={FIVE}
+                                src={R27}
+                                style={{
+                                    marginRight:"-52px",
+                                    marginTop:"145px",
+                                    width:"49%"
+                                }}
                                 className="animate__animated animate__fadeInDown animate__delay-2.5s"
                                 alt="image"
                             />
 
-                            <img
-                                src={SIX}
-                                className="animate__animated animate__fadeInDown animate__delay-1.9s"
-                                alt="image"
-                            />
 
-                            <img
-                                src={SEVEN}
-                                className="animate__animated animate__fadeInDown animate__delay-2.1s"
-                                alt="image"
-                            />
 
-                            <img
-                                src={EiGHT}
-                                className="animate__animated animate__fadeInDown animate__delay-1.9s"
-                                alt="image"
-                            />
 
-                            <img
-                                src={NINE}
-                                className="animate__animated animate__fadeInDown animate__delay-1.7s"
-                                alt="image"
-                            />
-
-                            <img
-                                src={TEN}
-                                className="animate__animated animate__fadeInDown animate__delay-1.5s"
-                                alt="image"
-                            />
-
-                            <img
-                                src={ELEVEN}
-                                className="animate__animated animate__fadeInUp animate__delay-0.4s"
-                                alt="image"
-                            />
-
-                            <img
-                                src={MAIN}
-                                className="animate__animated animate__fadeInUp animate__delay-0.5s"
-                                alt="image"
-                            />
                         </div>
                     </div>
                 </div>
