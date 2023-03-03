@@ -29,8 +29,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="ml-banner-content">
-                            <h1> Capacita a tu equipo, educa a tu audiencia y genera impacto en tu organización.</h1>
-                            <p style={{fontSize:20}} className="col-md-12">Fullmind es una plataforma que facilita acceso a herramientas y profesionales expertos en producción e-Learning.</p>
+                            <h1> <b>Capacita</b> a tu equipo,<br /> <b>educa</b> a tu audiencia y<br /> genera <b>impacto</b> en tu<br /> organización.</h1>
+                            <p style={{fontSize:20}} className="col-md-12">Fullmind es una plataforma que facilita acceso<br /> a herramientas y profesionales expertos en<br /> producción e-Learning.</p>
 
                             <Link href={URL_WHATS}>
                                 <a className="btn btn-secondary">Mi empresa necesita E-learning</a>

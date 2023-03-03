@@ -1149,7 +1149,7 @@ Main Banner CSS
   position: absolute;
   z-index: -1;
   top: 60%;
-  left: 15%;
+  left: 10%;
 }
 
 .shape3 {
@@ -10396,3 +10396,63 @@ Go Top CSS
   background-color: #483e3e;
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Custom CSS */
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+  height: 40px !important;
+  width: 40px !important;
+  color: #C679E3 !important;
+}
+
+.image-gallery {
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: relative;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  margin-bottom:80px;
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+  transform: scale(1.2);
+  border: 1px solid #C679E3 !important;
+  background: #C679E3 !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #C679E3 !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #1a1a1a;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.image-gallery-bullets .image-gallery-bullet:hover {
+  appearance: none;
+  background-color: #C679E3 !important;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #1a1a1a;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.image-gallery-thumbnails {
+  display:none;
+}
+
+/*En custom CSS*/
